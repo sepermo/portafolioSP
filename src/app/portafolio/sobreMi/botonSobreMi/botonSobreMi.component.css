@@ -1,0 +1,35 @@
+.redes h2{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 500;
+    margin: 30px 0;
+    font-size: 20px;
+    color: #0027d9;
+}
+
+.botones {
+    display: flex; 
+    justify-content: center ;
+}
+
+.botones button{
+    background-color: #fff;
+    border: solid 1px gray;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;    
+    margin: 0 30px;
+    width: 160px;
+    height: 40px;
+    font-size: 15px;
+    transition: transform 0.2s;
+}
+
+.icon-text i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.botones button:hover {
+    transform: scale(1.1);
+}
+

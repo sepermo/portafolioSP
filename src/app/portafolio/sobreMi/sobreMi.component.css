@@ -1,0 +1,58 @@
+.container{
+  width: 100%; 
+  padding: 35px 0;
+  background-image: url('../../../assets/shared/pattern-background-desktop.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.informacion, .foto {
+  float: left;
+  width: 100%; 
+}
+
+  .foto {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.foto img {
+  margin: auto; 
+  width: 300px; 
+  height: 300px; 
+  border-radius: 50%; 
+}
+
+.top {
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  height: 100%; 
+}
+
+.informacion p, h2, span {
+  margin-bottom: 10px; 
+  text-align: justify;
+  margin-left: 30px;
+  font-size: 15px;
+}
+
+.informacion  h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.informacion span{
+  font-weight: 700;
+}
+
+.informacion  a {
+  text-decoration: none;
+}
+
+.informacion span {
+  color: #0027d9;
+}
+
+  
